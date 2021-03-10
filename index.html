@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Backpack configurator</title>
+</head>
+<style>
+    #shadows_Image-2 {
+        pointer-events: none;
+    }
+</style>
+<body>
+    <h1>Available features</h1>
+    <div id="options">
+        <figure class="option" data-feature="drinksholder">
+          <img src="images/add_tripod_feature.png" alt="tripod_feature" />
+          <figcaption>Tripod</figcaption>
+        </figure>
+        <figure class="option" data-feature="led">
+          <img src="images/add_trolley_feature.png" alt="trolley" />
+          <figcaption>Trolley Supoprt</figcaption>
+        </figure>
+        <figure class="option" data-feature="propeller">
+          <img src="images/add_blanket_feature.png" alt="blanket" />
+          <figcaption>Blanket</figcaption>
+        </figure>
+        <figure class="option" data-feature="propeller">
+            <img src="images/add_waterbottle_feature.png" alt="waterbottle" />
+            <figcaption>Waterbottle</figcaption>
+          </figure>
+        </figure>
+      </div>
+    <div id="backpack"><section></section></div>
+    <h1>CHOOSE A COLOR:</h1>
+    <svg id="colorbox" viewBoX="0 0 1000 100">
+      <rect class="color1" width="60" height="70" fill="black" />
+      <rect class="color2" x="80" width="60" height="70" fill="#BF5B04" />
+      <rect class="color3" x="160" width="60" height="70" fill="wheat" />
+      <rect class="color4" x="240" width="60" height="70" fill="#F29F05" />
+      <rect class="color5" x="320" width="60" height="70" fill="teal" />
+      <rect
+        class="color6"
+        x="400"
+        width="60"
+        height="70"
+        fill="hsl(32, 71%, 59%)"
+      />
+      </svg>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,50 @@
+body {
+    margin:0;
+    /* background-image: url(./images/plane_wood.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+}
+
+
+#options {
+    grid-area: options;
+    box-shadow: 3px 3px 8px #ddd;
+    border-radius: 1em;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  #options .option {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1em;
+    color: #aaa;
+  }
+  
+  #options .option:hover {
+    background-color: #ddd;
+    cursor: pointer;
+  }
+  
+  #options .option.chosen {
+    text-decoration: underline;
+    color: #000;
+  }
+  
+  #options .option img {
+    width: 7vw;
+    height: auto;
+  }
+  
+  #options .option figcaption {
+    font-size: 20px;
+  }
+ 
+  
+  h1 {
+      text-align: center;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
