@@ -1,8 +1,5 @@
 body {
     margin:0;
-    /* background-image: url(./images/plane_wood.jpg);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
 
 
@@ -12,18 +9,47 @@ body {
     border-radius: 1em;
     padding: 1em;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
   }
 
   #options .option {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 1em;
     color: #aaa;
   }
   
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  #colorholder {
+      height: 100vh;
+      width: 20%;
+      box-shadow: 3px 3px 8px #ddd;
+      border-radius: 1em;
+      padding: 1em;
+  }
+
+  #hexagon {
+    fill: #fff;
+    stroke: rgb(4, 41, 4);
+    stroke-width: 20;
+  }
+
+  .left-shade {
+    fill: rgb(2, 2, 54);
+  }
+  
+  .right-shade {
+    fill: darkblue;
+    opacity: 30%;
+  }
+
   #options .option:hover {
     background-color: #ddd;
     cursor: pointer;
